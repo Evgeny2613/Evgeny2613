@@ -2,10 +2,7 @@
 
 package Homework.hw13.task1;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class EmployeeTester {
     public static void main(String[] args) {
@@ -25,5 +22,8 @@ public class EmployeeTester {
         );
 
         System.out.println(employees);
+    }
+
+    public static void employeeSort(List<Employee> employees, List<String> comparators) {
     }
 }
