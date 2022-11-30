@@ -18,7 +18,7 @@ public class Employee {
     public Employee() {
     }
 
-    public Employee(String department, String name, String id, String position, String joinYear, int salary, String currency) {
+    public Employee(String department, String name, String position, String joinYear, int salary, String currency) {
         this.department = department;
         this.name = name;
         this.id = id;
@@ -45,14 +45,6 @@ public class Employee {
         this.name = name;
     }
 
-    public String getId() {
-        return id;
-    }
-
-    @XmlAttribute(name = "id")
-    public void setId(String id) {
-        this.id = id;
-    }
 
     public String getPosition() {
         return position;
@@ -106,8 +98,9 @@ public class Employee {
                 ", id='" + id + '\'' +
                 ", position='" + position + '\'' +
                 ", joinYear='" + joinYear + '\'' +
-                ", salary='" + salary + '\'' +
+                ", salary=" + salary +
                 ", currency='" + currency + '\'' +
+                ", USDSalary=" + USDSalary +
                 '}';
     }
 }
