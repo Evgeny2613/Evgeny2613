@@ -1,4 +1,4 @@
-package lessons.lesson22;
+package lessons.lesson23.lesson22;
 
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;

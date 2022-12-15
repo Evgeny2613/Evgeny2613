@@ -1,4 +1,4 @@
-package lessons.lesson24;
+package lessons.lesson23.lesson24;
 
 import java.util.AbstractMap;
 import java.util.Arrays;
